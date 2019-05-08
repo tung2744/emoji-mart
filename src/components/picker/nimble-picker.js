@@ -126,7 +126,7 @@ export default class NimblePicker extends React.PureComponent {
           this.categories.push(newCategory)
         }
       } else {
-        this.categories.push(category)
+        this.categories.push({ ...category })
       }
     }
 
